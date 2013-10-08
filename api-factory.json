@@ -1,6 +1,12 @@
 {
     "root" : "api-factory",
     "port" : 8111,
+    "response" : {
+        "headers" : {
+            "Access-Control-Allow-Origin" : "*",
+            "Access-Control-Allow-Headers" : "X-Requested-With"
+        }
+    },
     "server" : {
         "openweathermap" : {
             "host" : "api.openweathermap.org",
