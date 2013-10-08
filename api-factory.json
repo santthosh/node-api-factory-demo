@@ -1,0 +1,10 @@
+{
+    "root" : "api-factory",
+    "port" : 8111,
+    "server" : {
+        "openweathermap" : {
+            "host" : "api.openweathermap.org",
+            "port" : "80"
+        }
+    }
+}

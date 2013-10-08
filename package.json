@@ -19,6 +19,12 @@
       "type": "MIT"
     }
   ],
+  "dependencies" : {
+    "node-api-factory": "https://github.com/santthosh/node-api-factory/tarball/develop"
+  },
+  "engines" : {
+    "node" : ">=0.10.3 <0.12"
+  },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-nodeunit": "~0.2.0",
