@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cities>
+    <calctime>0.6866</calctime>
+    <count>11</count>
+    <mode>name</mode>
+    <list>
+        <item>
+            <city id="5815135" name="Washington">
+                <coord lon="-120.501472" lat="47.500118"/>
+                <country>US</country>
+                <sun rise="2013-10-08T14:12:09" set="2013-10-09T01:26:22"/>
+            </city>
+            <temperature value="282.15" min="282.15" max="282.15" unit="kelvin"/>
+            <humidity value="61" unit="%"/>
+            <pressure value="1011" unit="hPa"/>
+            <wind>
+                <speed value="4.6" name="Gentle Breeze"/>
+                <direction value="360" code="" name=""/>
+            </wind>
+            <clouds value="1" name="sky is clear"/>
+            <precipitation mode="no"/>
+            <weather number="800" value="Sky is Clear" icon="01n"/>
+            <lastupdate value="2013-10-08T13:55:00" unix="1381240500"/>
+        </item>
+        <item>
+            <city id="2634715" name="Washington">
+                <coord lon="-1.51667" lat="54.900002"/>
+                <country>GB</country>
+                <sun rise="2013-10-08T06:23:14" set="2013-10-08T17:23:35"/>
+            </city>
+            <temperature value="288.784" min="288.784" max="288.784" unit="kelvin"/>
+            <humidity value="78" unit="%"/>
+            <pressure value="1026.57" unit="hPa"/>
+            <wind>
+                <speed value="6.71" name="Moderate breeze"/>
+                <direction value="267" code="W" name="West"/>
+            </wind>
+            <clouds value="0" name="sky is clear"/>
+            <precipitation mode="no"/>
+            <weather number="800" value="Sky is Clear" icon="01d"/>
+            <lastupdate value="2013-10-08T14:30:59" unix="1381242659"/>
+        </item>
+        <item>
+            <city id="5549222" name="Washington">
+                <coord lon="-113.508293" lat="37.130539"/>
+                <country>US</country>
+                <sun rise="2013-10-08T13:36:22" set="2013-10-09T01:06:13"/>
+            </city>
+            <temperature value="279.334" min="279.334" max="279.334" unit="kelvin"/>
+            <humidity value="42" unit="%"/>
+            <pressure value="867.38" unit="hPa"/>
+            <wind>
+                <speed value="1.31" name="Calm"/>
+                <direction value="151.5" code="SSE" name="South-southeast"/>
+            </wind>
+            <clouds value="0" name="sky is clear"/>
+            <precipitation mode="no"/>
+            <weather number="800" value="Sky is Clear" icon="01d"/>
+            <lastupdate value="2013-10-08T14:30:59" unix="1381242659"/>
+        </item>
+        <item>
+            <city id="4915545" name="Washington">
+                <coord lon="-89.40731" lat="40.703651"/>
+                <country>US</country>
+                <sun rise="2013-10-08T12:02:18" set="2013-10-08T23:27:30"/>
+            </city>
+            <temperature value="286.15" min="286.15" max="286.15" unit="kelvin"/>
+            <humidity value="76" unit="%"/>
+            <pressure value="1023" unit="hPa"/>
+            <wind>
+                <speed value="2.1" name="Light breeze"/>
+                <direction value="180" code="S" name="South"/>
+            </wind>
+            <clouds value="1" name="sky is clear"/>
+            <precipitation mode="no"/>
+            <weather number="800" value="Sky is Clear" icon="01d"/>
+            <lastupdate value="2013-10-08T13:55:00" unix="1381240500"/>
+        </item>
+        <item>
+            <city id="4413621" name="Washington">
+                <coord lon="-91.012093" lat="38.558109"/>
+                <country>US</country>
+                <sun rise="2013-10-08T12:07:15" set="2013-10-08T23:35:23"/>
+            </city>
+            <temperature value="285.15" min="285.15" max="285.15" unit="kelvin"/>
+            <humidity value="81" unit="%"/>
+            <pressure value="1023" unit="hPa"/>
+            <wind>
+                <speed value="1.81" name="Light breeze"/>
+                <direction value="141" code="SE" name="SouthEast"/>
+            </wind>
+            <clouds value="1" name="sky is clear"/>
+            <precipitation mode="no"/>
+            <weather number="800" value="Sky is Clear" icon="01d"/>
+            <lastupdate value="2013-10-08T13:54:00" unix="1381240440"/>
+        </item>
+        <item>
+            <city id="5218069" name="Washington">
+                <coord lon="-80.24617" lat="40.173962"/>
+                <country>US</country>
+                <sun rise="2013-10-08T11:25:16" set="2013-10-08T22:51:16"/>
+            </city>
+            <temperature value="284.62" min="282.15" max="286.15" unit="kelvin"/>
+            <humidity value="76" unit="%"/>
+            <pressure value="1026" unit="hPa"/>
+            <wind>
+                <speed value="1.56" name=""/>
+                <direction value="75.5004" code="ENE" name="East-northeast"/>
+            </wind>
+            <clouds value="1" name="sky is clear"/>
+            <precipitation mode="no"/>
+            <weather number="800" value="Sky is Clear" icon="01d"/>
+            <lastupdate value="2013-10-08T14:15:00" unix="1381241700"/>
+        </item>
+        <item>
+            <city id="4266586" name="Washington">
+                <coord lon="-87.172791" lat="38.659222"/>
+                <country>US</country>
+                <sun rise="2013-10-08T11:51:57" set="2013-10-08T23:19:59"/>
+            </city>
+            <temperature value="285.15" min="285.15" max="285.15" unit="kelvin"/>
+            <humidity value="87" unit="%"/>
+            <pressure value="1024" unit="hPa"/>
+            <wind>
+                <speed value="1.5" name=""/>
+                <direction value="90" code="E" name="East"/>
+            </wind>
+            <clouds value="1" name="sky is clear"/>
+            <precipitation mode="no"/>
+            <weather number="701" value="mist" icon="50d"/>
+            <lastupdate value="2013-10-08T13:53:00" unix="1381240380"/>
+        </item>
+        <item>
+            <city id="4497666" name="Washington">
+                <coord lon="-77.05217" lat="35.546551"/>
+                <country>US</country>
+                <sun rise="2013-10-08T11:09:27" set="2013-10-08T22:41:32"/>
+            </city>
+            <temperature value="288.47" min="287.15" max="289.15" unit="kelvin"/>
+            <humidity value="82" unit="%"/>
+            <pressure value="1020" unit="hPa"/>
+            <wind>
+                <speed value="6.7" name="Moderate breeze"/>
+                <direction value="30" code="NNE" name="North-northeast"/>
+            </wind>
+            <clouds value="90" name="overcast clouds"/>
+            <precipitation mode="no"/>
+            <weather number="804" value="overcast clouds" icon="04d"/>
+            <lastupdate value="2013-10-08T14:15:00" unix="1381241700"/>
+        </item>
+        <item>
+            <city id="4880731" name="Washington">
+                <coord lon="-91.69294" lat="41.299179"/>
+                <country>US</country>
+                <sun rise="2013-10-08T12:11:53" set="2013-10-08T23:36:13"/>
+            </city>
+            <temperature value="285.79" min="284.15" max="287.15" unit="kelvin"/>
+            <humidity value="71" unit="%"/>
+            <pressure value="1021" unit="hPa"/>
+            <wind>
+                <speed value="3.6" name="Gentle Breeze"/>
+                <direction value="200" code="SSW" name="South-southwest"/>
+            </wind>
+            <clouds value="1" name="sky is clear"/>
+            <precipitation mode="no"/>
+            <weather number="800" value="Sky is Clear" icon="01d"/>
+            <lastupdate value="2013-10-08T13:55:00" unix="1381240500"/>
+        </item>
+        <item>
+            <city id="5106057" name="Washington">
+                <coord lon="-74.97934" lat="40.75843"/>
+                <country>US</country>
+                <sun rise="2013-10-08T11:04:36" set="2013-10-08T22:29:49"/>
+            </city>
+            <temperature value="287.986" min="287.986" max="287.986" unit="kelvin"/>
+            <humidity value="69" unit="%"/>
+            <pressure value="1013.81" unit="hPa"/>
+            <wind>
+                <speed value="2.16" name="Light breeze"/>
+                <direction value="4.00711" code="N" name="North"/>
+            </wind>
+            <clouds value="8" name="sky is clear"/>
+            <precipitation mode="no"/>
+            <weather number="800" value="Sky is Clear" icon="02d"/>
+            <lastupdate value="2013-10-08T14:30:59" unix="1381242659"/>
+        </item>
+        <item>
+            <city id="4229546" name="Washington">
+                <coord lon="-82.739311" lat="33.73679"/>
+                <country>US</country>
+                <sun rise="2013-10-08T11:31:07" set="2013-10-08T23:05:22"/>
+            </city>
+            <temperature value="290.15" min="290.15" max="290.15" unit="kelvin"/>
+            <humidity value="67" unit="%"/>
+            <pressure value="1019" unit="hPa"/>
+            <wind>
+                <speed value="2.6" name="Light breeze"/>
+                <direction value="40" code="NE" name="NorthEast"/>
+            </wind>
+            <clouds value="90" name="overcast clouds"/>
+            <precipitation mode="no"/>
+            <weather number="804" value="overcast clouds" icon="04d"/>
+            <lastupdate value="2013-10-08T13:55:00" unix="1381240500"/>
+        </item>
+    </list>
+</cities>
+
