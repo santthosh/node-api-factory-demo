@@ -7,10 +7,8 @@ var finalize = function(response,responseBody) {
 }
 
 module.exports = function(request,response, proxy,config) {
-    console.log("hello");
     var url_parts = url.parse(request.url, true);
     var query = url_parts.query;
-    console.log("hello2");
     console.log(query.id);
 
     var options = {

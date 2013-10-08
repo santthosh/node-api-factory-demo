@@ -34,6 +34,23 @@ module.exports = function (grunt) {
         files: '<%= jshint.test.src %>',
         tasks: ['jshint:test', 'nodeunit']
       }
+    },
+    nodemon: {
+      dev: {
+          options: {
+              file: 'lib/node-api-factory-demo.js',
+              ignoredFiles: ['README.md', 'node_modules/**','!node_modules/node-api-factory/**'],
+              watchedExtensions: ['js','json'],
+              watchedFolders: ['api-factory', 'test'],
+              delayTime: 1,
+              cwd: __dirname
+          }
+      },
+      exec: {
+          options: {
+              exec: 'less'
+          }
+      }
     }
   });
 
@@ -41,8 +58,10 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-nodeunit');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-nodemon');
 
   // Default task.
-  grunt.registerTask('default', ['jshint', 'nodeunit']);
+  grunt.registerTask('default', ['nodemon']);
 
+  grunt.registerTask('test', ['jshint', 'nodeunit']);
 };
