@@ -7,14 +7,16 @@ var finalize = function(response,responseBody) {
 }
 
 module.exports = function(request,response, proxy,config) {
-    var url_parts = url.parse(request.url, true);
-    var query = url_parts.query;
-    console.log(query.id);
+    var urlParts = url.parse(request.url, true);
+    var urlComponents = urlParts.pathname.split('/');
+    var clone = urlComponents.slice(0);
+    clone.reverse();
+    console.log(clone[0]);
 
     var options = {
         host: config.server.openweathermap.host,
         port: config.server.openweathermap.port,
-        path: '/data/2.5/weather?id=' + query.id
+        path: '/data/2.5/weather?id=' + clone[0]
     };
 
     var responseBody = '';

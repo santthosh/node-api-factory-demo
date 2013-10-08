@@ -43,7 +43,7 @@ module.exports = function (grunt) {
       dev: {
           options: {
               file: 'lib/node-api-factory-demo.js',
-              ignoredFiles: ['README.md', 'node_modules/**','!node_modules/node-api-factory/lib/*.js'],
+              ignoredFiles: ['README.md', '!node_modules/node-api-factory/lib/*.js','node_modules/**'],
               watchedExtensions: ['js','json','proxy'],
               watchedFolders: ['api-factory', 'test'],
               delayTime: 1,
