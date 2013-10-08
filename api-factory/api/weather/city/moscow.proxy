@@ -1,0 +1,5 @@
+{
+    "host" : "api.openweathermap.org",
+    "port" : "80",
+    "url" : "/data/2.5/forecast/daily?id=524901"
+}

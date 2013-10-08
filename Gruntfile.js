@@ -33,14 +33,18 @@ module.exports = function (grunt) {
       test: {
         files: '<%= jshint.test.src %>',
         tasks: ['jshint:test', 'nodeunit']
-      }
+      },
+      livereload: {
+         options: { livereload: true },
+         files: ['api-factory/**/*']
+      },
     },
     nodemon: {
       dev: {
           options: {
               file: 'lib/node-api-factory-demo.js',
-              ignoredFiles: ['README.md', 'node_modules/**','!node_modules/node-api-factory/**'],
-              watchedExtensions: ['js','json'],
+              ignoredFiles: ['README.md', 'node_modules/**','!node_modules/node-api-factory/lib/*.js'],
+              watchedExtensions: ['js','json','proxy'],
               watchedFolders: ['api-factory', 'test'],
               delayTime: 1,
               cwd: __dirname
