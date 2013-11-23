@@ -20,7 +20,7 @@
     }
   ],
   "dependencies": {
-    "node-api-factory": "https://github.com/santthosh/node-api-factory/tarball/develop"
+    "api-factory": "~0.0.1"
   },
   "engines": {
     "node": ">=0.10.3 <0.12"
